@@ -1,0 +1,11 @@
+#main .main__banner {
+     height: auto;
+}
+.main__banner {
+     background: var(--text-primary);
+}
+.banner__desc {
+     max-width: 753px;
+     margin-top: 1.25rem;
+     line-height: 28.8px;
+}

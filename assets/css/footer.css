@@ -1,0 +1,19 @@
+#footer.text-light {
+     background: var(--text-secondary) !important;
+}
+#footer .social__link {
+     min-width: 32px;
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -ms-border-radius: 50%;
+     -o-border-radius: 50%;
+     background: #fff;
+     margin-right: 1rem;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-wrap: wrap;
+}

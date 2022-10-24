@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <!-- fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- bootstrap 5 -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <link rel="stylesheet" href="assets/css/root.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/portfolio.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="icon" href="assets/image/logo.png" />
+  </head>
+  <body>
+    <section id="page">
+      <header id="header">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-light header__bootstrap"
+        >
+          <div class="container">
+            <a class="navbar-brand" href="#">
+              <img
+                class="logo"
+                src="assets/image/header/logo.png"
+                alt="logo website"
+              />
+            </a>
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarText"
+              aria-controls="navbarText"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarText">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0 m-auto">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="/"
+                    >Home</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="service.html">Service</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+              </ul>
+              <a href="contact.html" class="btn btn-primary">Contact</a>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <main id="main">
+        <section
+          class="main__banner pt-5 pb-5 d-flex flex-column align-items-center justify-content-center"
+        >
+          <h1 class="banner__title text-white">Our Portfolio</h1>
+          <p class="banner__desc text-white text-center">
+            Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet
+            sint. Velit officia consequat duis enim velit mollit. Exercitation
+            veniam
+          </p>
+        </section>
+        <section
+          class="main__portfolio pt-5 pb-5 bg-light d-flex flex-column align-items-center"
+        >
+          <h4 class="component__title--sm">Portfolio</h4>
+          <h2 class="component__title--lg">Our recent works</h2>
+          <p class="component__description text-dark text-center">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tincidunt
+            mi blandit et ac elit eros, viverra. Elementum pellentesque sed
+            scelerisque pellentesque auctor accumsan, velit posuere eget.
+          </p>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="portfolio__content bg-white p-3">
+                  <a href="detail.html" class="text-dark">
+                    <img
+                      class="portfolio__image"
+                      src="assets/image/portfolio/portfolio-1.png"
+                      alt="Medical Website"
+                    />
+                    <h3 class="portfolio__name pt-3 pb-3">Medical Website</h3>
+                    <p class="portfolio__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam sed consectetur malesuada sodales enim viverra odio
+                      diam. Nascetur dui elementum,
+                    </p>
+                    <button class="btn__read__more d-flex align-items-center">
+                      Read more
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="portfolio__content bg-white p-3">
+                  <a href="detail.html" class="text-dark">
+                    <img
+                      class="portfolio__image"
+                      src="assets/image/portfolio/portfolio-2.png"
+                      alt="Cryptocurrency Website"
+                    />
+                    <h3 class="portfolio__name pt-3 pb-3">
+                      Cryptocurrency Website
+                    </h3>
+                    <p class="portfolio__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam sed consectetur malesuada sodales enim viverra odio
+                      diam. Nascetur dui elementum,
+                    </p>
+                    <button class="btn__read__more d-flex align-items-center">
+                      Read more
+                    </button>
+                  </a>
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="portfolio__content bg-white p-3">
+                  <a href="detail.html" class="text-dark">
+                    <img
+                      class="portfolio__image"
+                      src="assets/image/portfolio/portfolio-3.png"
+                      alt="Bitcoin investment Web "
+                    />
+                    <h3 class="portfolio__name pt-3 pb-3">
+                      Bitcoin investment Web
+                    </h3>
+                    <p class="portfolio__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam sed consectetur malesuada sodales enim viverra odio
+                      diam. Nascetur dui elementum,
+                    </p>
+                    <button class="btn__read__more d-flex align-items-center">
+                      Read more
+                    </button>
+                  </a>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="portfolio__content bg-white p-3">
+                  <a href="detail.html" class="text-dark"
+                    ><img
+                      class="portfolio__image"
+                      src="assets/image/portfolio/portfolio-4.png"
+                      alt="Body builder Web "
+                    />
+                    <h3 class="portfolio__name pt-3 pb-3">Body builder Web</h3>
+                    <p class="portfolio__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam sed consectetur malesuada sodales enim viverra odio
+                      diam. Nascetur dui elementum,
+                    </p>
+                    <button class="btn__read__more d-flex align-items-center">
+                      Read more
+                    </button></a
+                  >
+                </div>
+              </div>
+              <div class="col-lg-4 col-md-6 p-2">
+                <div class="portfolio__content bg-white p-3">
+                  <a href="detail.html" class="text-dark"
+                    ><img
+                      class="portfolio__image"
+                      src="assets/image/portfolio/portfolio-5.png"
+                      alt="Dental Website"
+                    />
+                    <h3 class="portfolio__name pt-3 pb-3">Dental Website</h3>
+                    <p class="portfolio__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Nullam sed consectetur malesuada sodales enim viverra odio
+                      diam. Nascetur dui elementum,
+                    </p>
+                    <button class="btn__read__more d-flex align-items-center">
+                      Read more
+                    </button></a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+          <a href="portfolio.html" class="btn btn-primary mt-3 mb-3"
+            >See All Portfolio</a
+          >
+        </section>
+        <section class="main__customer__ cta bg-white">
+          <div class="container">
+            <div
+              class="p-5 bg-dark d-flex justify-content-between align-items-center flex-md-row flex-column"
+            >
+              <div class="cta__left pt-4 pb-4">
+                <h3 class="name__cta text-white">
+                  Do you have a project in mind?
+                </h3>
+                <p class="desc__cta text-white">
+                  Lorem ipsum dolor sit amet consectetur adipiscing elit amet
+                  diam in est pharetra porttitor libero.
+                </p>
+              </div>
+              <div
+                class="main__customer__ cta p-5 bg-dark d-flex flex-md-row flex-column justify-content-between align-items-md-center align-items-start mt-5"
+              >
+                <button class="btn btn-primary d-inline-block me-3">
+                  Let’s talk
+                </button>
+                <button class="btn btn-primary d-inline-block">
+                  Learn more
+                </button>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer id="footer" class="text-light">
+        <div class="container pt-5 pb-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <a href="#">
+                <img
+                  class="logo"
+                  src="assets/image/header/logo.png"
+                  alt="logo website"
+                />
+              </a>
+              <p class="desc__footer text-dark mt-4 mb-4">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Molestie nulla massa fringilla.
+              </p>
+              <ul class="list__social d-flex p-0 flex-wrap">
+                <li class="social__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-brands fa-twitter"></i>
+                  </a>
+                </li>
+                <li class="social__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+                <li class="social__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                  </a>
+                </li>
+                <li class="cocial__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+                <li class="social__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-solid fa-comment-sms"></i>
+                  </a>
+                </li>
+                <li class="cocial__item mb-3">
+                  <a href="#" class="social__link text-dark">
+                    <i class="fa-brands fa-behance"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="row">
+                <div class="col-md-6">
+                  <h3 class="name__menu__footer text-dark mb-3">Menu</h3>
+                  <ul class="list__menu p-0">
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Home </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> About Us </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Blog </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Blog post </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="contact.html" class="menu__link text-dark">
+                        Contact
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="col-md-6">
+                  <h3 class="name__menu__footer text-dark mb-3">
+                    Utility Pages
+                  </h3>
+                  <ul class="list__menu p-0">
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Start Here </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Styleguide </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark">
+                        Password Protected
+                      </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark">
+                        404 Not Found
+                      </a>
+                    </li>
+                    <li class="menu__item pt-3 pb-3">
+                      <a href="#" class="menu__link text-dark"> Licenses </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3 class="name__footer__menu text-dark">
+                Subscribe to our newsletter
+              </h3>
+              <p class="desc__footer mt-4 mb-4 text-dark">
+                Lorem ipsum dolor sit amet consectetur adipiscing elit am dolor
+                sit.
+              </p>
+              <input
+                type="text"
+                name="email"
+                id=""
+                value=""
+                placeholder="Enter your email"
+                class="form-control w-75 bg-dark text-white pt-3 pb-3"
+              />
+              <button class="btn btn-primary mt-3 pt-3 pb-3 ps-4 pe-4">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </section>
+  </body>
+  <!-- fontawesome -->
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js"
+    integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  ></script>
+  <!-- bootstrap 5 -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"
+  ></script>
+  <script src="assets/js/toggle.js"></script>
+  <script src="assets/js/header.js"></script>
+</html>
