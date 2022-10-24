@@ -57,7 +57,7 @@
      -o-border-radius: .25rem;
 }
 .btn__learn__more:hover::after {
-     height: 380%;
+     height: 450%;
      border-radius: .25rem;
      -webkit-border-radius: .25rem;
      -moz-border-radius: .25rem;
@@ -243,5 +243,4 @@
      max-width: 475.42px;
 }
 /* ----------------end customer---------------- */
-
 
